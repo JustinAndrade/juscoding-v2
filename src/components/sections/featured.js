@@ -165,6 +165,11 @@ const StyledProject = styled.li`
       padding: 20px 0;
       background-color: transparent;
       box-shadow: none;
+      color: #f1f1f1;
+      background-color: var(--white);
+      color: var(--light-navy);
+      opacity: 0.85;
+      padding: 14px;
 
       &:hover {
         box-shadow: none;

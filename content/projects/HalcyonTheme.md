@@ -1,15 +1,18 @@
 ---
-date: '2017-12-27'
-title: 'Halcyon Theme'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+date: '1'
+title: 'NextOne'
+cover: './halcyon.png'
+# github: 'https://github.com/bchiang7/halcyon-site'
+external: 'https://next-one-production.up.railway.app/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
-showInProjects: false
+  - NextJS
+  - Stripe
+  - MongoDB
+  - ShadCN
+  - Resend
+  - PayloadCMS
+  - TRPC
+  - Tailwind
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A custom NextJS template aimed to help indie hackers remove pain points related to tracking customer information and payment facilitations so they can focus on their next endeavor.
