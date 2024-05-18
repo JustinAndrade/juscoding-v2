@@ -1,6 +1,6 @@
 ---
 date: '2019-06-21'
-title: 'Creative Technologist Co-op'
+title: 'Frontend Engineer'
 company: 'IllustratedJS'
 location: 'Boston, MA'
 range: 'June 2019 - December 2019'
