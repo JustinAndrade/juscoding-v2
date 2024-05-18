@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 
-import svg from '../../../public/lines.svg';
-import arrow from '../../../public/arrow.svg';
+// import svg from '../../../public/lines.svg';
+// import arrow from '../../../public/arrow.svg';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -70,7 +70,7 @@ const Hero = () => {
         position: 'relative',
       }}>
       Justin Andrade.{' '}
-      <img
+      {/* <img
         style={{
           width: '300px',
           position: 'absolute',
@@ -80,7 +80,7 @@ const Hero = () => {
         }}
         src={arrow}
         alt="lines"
-      />
+      /> */}
     </h2>
   );
   const three = (
@@ -92,7 +92,7 @@ const Hero = () => {
           position: 'relative',
         }}>
         build things
-        <img
+        {/* <img
           style={{
             width: '100%',
             position: 'absolute',
@@ -101,7 +101,7 @@ const Hero = () => {
           }}
           src={svg}
           alt="lines"
-        />
+        /> */}
       </span>{' '}
       for the{' '}
       <span
