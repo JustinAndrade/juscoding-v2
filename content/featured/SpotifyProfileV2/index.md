@@ -2,12 +2,12 @@
 date: '3'
 title: 'MyPropsPlus'
 cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://mypropsplus.com'
+cta: ''
 tech:
   - React
   - Express
-  - Spotify API
+  - Slack API
   - Styled Components
 ---
 

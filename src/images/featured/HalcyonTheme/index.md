@@ -2,8 +2,8 @@
 date: '1'
 title: 'NextOne'
 cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+# github: 'https://github.com/bchiang7/halcyon-site'
+external: 'https://next-one-production.up.railway.app/'
 tech:
   - VS Code
   - Sublime Text

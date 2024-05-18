@@ -1,12 +1,15 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'Illustrated JS'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2019-10-01'
+title: 'Section Lead / Student Success Coordinator'
+company: 'BloomTech'
+location: 'Cupertino, CA'
+range: 'October 2019 - January 2021'
+url: 'https://www.bloomtech.com/'
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Coordinated student support and problem-solving initiatives, assisting with various issues
+- Developed scalable training material and provided structural support
+- Directed a team of 8 engineers, ensuring project deliverables were met while adhering to agile methodologies
+- Led organization-wide efforts to enhance efficiency and customer retention through support structure optimization and improved communication channels
+- Conducted code reviews and provided actionable feedback, resulting in a significant increase in code quality
+- Delivered lectures on full-stack technologies, contributing directly to the engineering team's performance improvement
