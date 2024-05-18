@@ -1,0 +1,22 @@
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3641.3283442438687 276.1566383025165" width="300" height="100">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="360" height="100" fill="#0A192F"></rect><g stroke-linecap="round"><g transform="translate(1819.4903881948765 143.90282472138006) rotate(0 496.0746300515016 -25.500279704246395)"><path d="M0.34 0.49 C80.27 -15.89, 315.22 -106.77, 480.44 -98.88 C645.67 -90.99, 906.31 23.17, 991.72 47.83 M-0.93 -0.3 C79.31 -16.95, 317.53 -108.63, 482.81 -100.48 C648.09 -92.33, 905.61 23.46, 990.74 48.6" stroke="#fca311" stroke-width="30" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(2811.358503455005 191.99710143274297) rotate(0 409.82424525238184 -88.67622237782302)"><path d="M-0.73 0.11 C63.63 -29.24, 249.16 -168.95, 385.83 -176.6 C522.51 -184.25, 747.15 -67.67, 819.32 -45.77 M1.08 -0.88 C65.83 -30.52, 251.74 -170.96, 387.96 -178.33 C524.18 -185.7, 746.6 -67.4, 818.38 -45.08" stroke="#fca311" stroke-width="30" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(12.153504147946023 138.657313203561) rotate(0 493.4798336356761 -23.380627564163888)"><path d="M0.32 -0.82 C79.76 -17.01, 311.62 -106.33, 476.01 -97.89 C640.41 -89.45, 901.38 24.91, 986.69 49.81 M-0.97 1.36 C78.38 -14.56, 310.66 -104.61, 475.12 -96.42 C639.57 -88.22, 900.2 26.24, 985.78 50.51" stroke="#fca311" stroke-width="30" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(997.7251008146507 189.4081364535723) rotate(0 410.37770813326847 -88.94466957710688)"><path d="M0.1 -0.12 C64.68 -29.83, 250.86 -171.66, 387.78 -179.08 C524.71 -186.49, 749.32 -67.01, 821.68 -44.61 M-1.31 -1.23 C63.06 -30.77, 249.58 -170.59, 386.7 -178.16 C523.81 -185.74, 749.33 -69.15, 821.39 -46.68" stroke="#fca311" stroke-width="30" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(1817.1655244296492 214.61934426086736) rotate(0 498.1217388745465 -23.593344222890664)"><path d="M-0.57 0.49 C80.18 -15.65, 319.49 -105.67, 485.68 -97.35 C651.88 -89.03, 911.66 25.91, 996.6 50.42 M1.33 -0.3 C81.86 -16.74, 319.21 -107.78, 484.99 -99.14 C650.77 -90.5, 911 26.64, 996.03 51.54" stroke="#fca311" stroke-width="30" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(2812.885026359566 265.0383103747845) rotate(0 408.43872506308526 -89.52700653819284)"><path d="M0.49 0.63 C64.67 -29.36, 248.62 -171.43, 384.54 -179.43 C520.46 -187.42, 743.88 -69.41, 816.01 -47.35 M-0.72 -0.09 C63.39 -29.94, 247.25 -170.33, 383.78 -178.09 C520.31 -185.84, 746.11 -68.55, 818.44 -46.6" stroke="#fca311" stroke-width="30" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(10.908986673913887 209.99695382486425) rotate(0 493.4798336356762 -23.38062756416366)"><path d="M0.36 -0.37 C79.45 -16.95, 310.53 -107.27, 475.04 -98.84 C639.55 -90.41, 902.04 25.39, 987.41 50.2 M-0.91 -1.62 C78.52 -18.14, 312.67 -106.65, 477.3 -97.86 C641.93 -89.08, 901.82 26.36, 986.87 51.1" stroke="#fca311" stroke-width="30" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(997.2127748985779 259.98020382653067) rotate(0 410.0116123542891 -88.57705219614672)"><path d="M-0.87 -1.07 C63.7 -30.67, 250.91 -170.57, 387.77 -177.96 C524.63 -185.34, 748.12 -67.56, 820.28 -45.38 M0.87 0.98 C65.29 -28.45, 250.59 -169.25, 387.05 -176.84 C523.52 -184.43, 747.27 -66.72, 819.65 -44.58" stroke="#fca311" stroke-width="30" fill="none"></path></g></g><mask></mask></svg>
