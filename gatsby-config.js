@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Justin Andrade',
     description:
-      'Justin Andrade is a software engineer who specializes in building exceptional digital experiences.',
+      'Justin Andrade is a software engineer who specializes frontend development, prompt engineering, AI tooling and more!',
     siteUrl: 'https://juscoding.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@juscoding',

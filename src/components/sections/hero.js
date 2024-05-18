@@ -119,7 +119,7 @@ const Hero = () => {
           position: 'relative',
         }}>
         I’m a software engineer specializing in AI tooling, prompt engineering and building
-        exceptional digital experiences. Currently, I’m focused on building exciting things at{' '}
+        exceptional user experiences. Currently, I’m focused on building exciting things at{' '}
         <a href="https://motivemetrics.com/" target="_blank" rel="noreferrer">
           MotiveMetrics
         </a>
