@@ -4,6 +4,9 @@ import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 
+import svg from '../../../public/lines.svg';
+import arrow from '../../../public/arrow.svg';
+
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
@@ -60,30 +63,71 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = (
+    <h2
+      className="big-heading"
+      style={{
+        position: 'relative',
+      }}>
+      Justin Andrade.{' '}
+      <img
+        style={{
+          width: '300px',
+          position: 'absolute',
+          left: '150px',
+          top: '-140px',
+          zIndex: '-1',
+        }}
+        src={arrow}
+        alt="lines"
+      />
+    </h2>
+  );
+  const three = (
+    <h3 className="big-heading">
+      I{' '}
+      <span
+        style={{
+          color: '#fff',
+          position: 'relative',
+        }}>
+        build things
+        <img
+          style={{
+            width: '100%',
+            position: 'absolute',
+            left: '-2px',
+            zIndex: '-1',
+          }}
+          src={svg}
+          alt="lines"
+        />
+      </span>{' '}
+      for the{' '}
+      <span
+        style={{
+          color: '#fff',
+        }}>
+        web
+      </span>
+    </h3>
+  );
   const four = (
     <>
-      <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+      <p
+        style={{
+          position: 'relative',
+        }}>
+        I’m a software engineer specializing in AI tooling, prompt engineering and building
+        exceptional digital experiences. Currently, I’m focused on building exciting things at{' '}
+        <a href="https://motivemetrics.com/" target="_blank" rel="noreferrer">
+          MotiveMetrics
         </a>
         .
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
+  const five = '';
 
   const items = [one, two, three, four, five];
 

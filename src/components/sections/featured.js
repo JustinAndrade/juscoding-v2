@@ -250,7 +250,6 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      opacity: 0.25;
     }
 
     a {
@@ -283,7 +282,7 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
+        background-color: var(--dark-navy);
         mix-blend-mode: screen;
       }
     }

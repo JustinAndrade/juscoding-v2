@@ -5,7 +5,7 @@ import { css } from 'styled-components';
 const TransitionStyles = css`
   /* Fade up */
   .fadeup-enter {
-    opacity: 0.01;
+    opacity: 0.1;
     transform: translateY(20px);
     transition: opacity 300ms var(--easing), transform 300ms var(--easing);
   }

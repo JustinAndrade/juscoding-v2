@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Spotify Profile'
+title: 'WagWorthy Supplies'
 cover: './demo.png'
 github: 'https://github.com/bchiang7/spotify-profile'
 external: 'https://spotify-profile.herokuapp.com/'
@@ -12,4 +12,4 @@ tech:
   - Heroku
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A niche e-commerce store focused on catering to dog owners who prioritize their pet's safety, offering a range of products from orthopedic beds to light-up collars and paw pads for hot temperatures.

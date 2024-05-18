@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
+title: 'MyPropsPlus'
 cover: './course-card.png'
 external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
@@ -11,6 +11,4 @@ tech:
   - Styled Components
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
-
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+A Slack integration application inspired by Kudos. This application is designed to foster a positive work environment by allowing team members to recognize and appreciate each other's efforts directly within Slack. It's a simple yet powerful way to build a culture of gratitude and recognition in your team.
