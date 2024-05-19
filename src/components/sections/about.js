@@ -137,22 +137,24 @@ const About = () => {
             <p>
               Hello! My name is Justin and I have a passsion for creating things that live on the
               internet. My interest in web development started back in 2017 when I was tasked with
-              building a website for a family friend — that was the beginning of my lifelong journey
-              in web development.
+              building a website for a family friend, little did I know the rabbit hole I was
+              getting myself into — that was the beginning of my journey, and I’ve been hooked ever
+              since.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://bloomtecg.com/">a coding bootcamp that changed my life</a>,{' '}
-              <a href="https://motivemetrics.com/">an innovative start-up in the AI space</a>, My
-              main focus these days is building a user friendly experience at{' '}
-              <a href="https://motivemetrics.com/">MotiveMetrics</a> for a variety of clients.
+              <a href="https://motivemetrics.com/">and a start-up in the AI space</a> leveraging
+              LLMs to truly understand search intent, My main focus these days is building user
+              friendly experiences at <a href="https://motivemetrics.com/">MotiveMetrics</a> for a
+              variety of clients.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://next-one-production.up.railway.app/">built a template</a> that gives
-              you a head start on building the core features needed for a SaaS product, including
+              I also recently built{' '}
+              <a href="https://next-one-production.up.railway.app/">NextOne</a> which gives indie
+              hackers a head start on building the core features required for launch, including
               authentication, billing, teams, two-factor authentication, and more.
             </p>
 
