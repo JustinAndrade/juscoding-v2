@@ -141,12 +141,51 @@ const Hero = () => {
         </>
       ) : (
         <TransitionGroup component={null}>
-          {isMounted &&
-            items.map((item, i) => (
-              <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
-                <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
-              </CSSTransition>
-            ))}
+          <div
+            style={{
+              marginTop: '180px',
+            }}>
+            {isMounted &&
+              items.map((item, i) => (
+                <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
+                  <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
+                </CSSTransition>
+              ))}
+            {isMounted && (
+              <>
+                <h1
+                  style={{
+                    color: '#fff',
+                    marginTop: '40px',
+                    zIndex: 100000,
+                    position: 'relative',
+                  }}>
+                  Have a question? Want to Interview me? Ask away!
+                </h1>
+                <div
+                  style={{
+                    minHeight: '400px',
+                    position: 'relative',
+                  }}>
+                  <iframe
+                    title="About Me"
+                    style={{
+                      border: 0,
+                      minWidth: '700px',
+                      position: 'absolute',
+                      left: '-48px',
+                      top: '-80px',
+                      padding: '0',
+                    }}
+                    height="400"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    src="https://about-me-six-murex.vercel.app/"
+                  />
+                </div>
+              </>
+            )}
+          </div>
         </TransitionGroup>
       )}
     </StyledHeroSection>
