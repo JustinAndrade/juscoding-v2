@@ -216,7 +216,7 @@ const Hero = () => {
                         onClick={e => {
                           e.preventDefault();
                           window.open(
-                            `https://interview.juscoding.com/interviewer=${interviewer}&role=${role}/`,
+                            `https://interview.juscoding.com/?interviewer=${interviewer}&role=${role}/`,
                             '_blank',
                           );
                         }}
