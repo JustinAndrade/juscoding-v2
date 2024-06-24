@@ -52,6 +52,8 @@ const StyledHeroSection = styled.section`
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
   const prefersReducedMotion = usePrefersReducedMotion();
+  const [interviewer, setInterviewer] = useState('');
+  const [role, setRole] = useState('');
 
   useEffect(() => {
     if (prefersReducedMotion) {
@@ -152,38 +154,94 @@ const Hero = () => {
                 </CSSTransition>
               ))}
             {isMounted && (
-              <>
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                }}>
                 <h1
                   style={{
                     color: '#fff',
-                    marginTop: '40px',
+                    marginTop: '20px',
                     zIndex: 100000,
                     position: 'relative',
                   }}>
-                  Have a question? Want to Interview me? Ask away!
+                  Use my AI tool to see if I'm a good fit for your role
                 </h1>
                 <div
                   style={{
-                    minHeight: '400px',
-                    position: 'relative',
+                    width: '100%',
+                    maxWidth: '500px',
                   }}>
-                  <iframe
-                    title="About Me"
+                  <form
                     style={{
-                      border: 0,
-                      minWidth: '700px',
-                      position: 'absolute',
-                      left: '-48px',
-                      top: '-80px',
-                      padding: '0',
-                    }}
-                    height="400"
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    src="https://about-me-six-murex.vercel.app/"
-                  />
+                      display: 'flex',
+                      flexDirection: 'column',
+                      maxWidth: '300px',
+                    }}>
+                    <label htmlFor="interviewer-name" style={{ fontSize: '1rem' }}>
+                      Name *
+                    </label>
+                    <input
+                      id="interviewer-name"
+                      placeholder="John Doe"
+                      style={{
+                        marginBottom: '10px',
+                        padding: '10px',
+                        borderRadius: '5px',
+                        boxShadow: '0px 0px 5px 0px #000',
+                        border: 'none',
+                      }}
+                      value={interviewer}
+                      onChange={e => setInterviewer(e.target.value)}
+                    />
+                    <label htmlFor="role-link" style={{ fontSize: '1rem' }}>
+                      Link to role *
+                    </label>
+                    <input
+                      id="role-link"
+                      placeholder="https://www.linkedin.com/jobs/view/123456"
+                      style={{
+                        marginBottom: '10px',
+                        padding: '10px',
+                        borderRadius: '5px',
+                        boxShadow: '0px 0px 5px 0px #000',
+                        border: 'none',
+                      }}
+                      value={role}
+                      onChange={e => setRole(e.target.value)}
+                    />
+                    <a href="https://juscoding.interview.com/" target="_blank" rel="noreferrer">
+                      <button
+                        onClick={e => {
+                          e.preventDefault();
+                          window.open(
+                            `https://interview.juscoding.com/interviewer=${interviewer}&role=${role}/`,
+                            '_blank',
+                          );
+                        }}
+                        style={{
+                          color: '#fff',
+                          backgroundColor: 'var(--green)',
+                          border: '1px solid var(--green)',
+                          borderRadius: 'var(--border-radius)',
+                          padding: '0.75rem 1.25rem',
+                          fontSize: 'var(--fz-sm)',
+                          fontFamily: 'var(--font-mono)',
+                          lineHeight: 1,
+                          textDecoration: 'none',
+                          transition: 'var(--transition)',
+                          marginTop: '10px',
+                          opacity: interviewer === '' || role === '' ? 0.5 : 1,
+                          cursor: interviewer === '' || role === '' ? 'not-allowed' : 'pointer',
+                        }}
+                        disabled={interviewer === '' || role === ''}>
+                        Start Interview
+                      </button>
+                    </a>
+                  </form>
                 </div>
-              </>
+              </div>
             )}
           </div>
         </TransitionGroup>
